@@ -51,6 +51,49 @@ The decision Customer Experience Team is to make it that which customers are gen
 As an analyst, I have to provide him information about the customers who are genuine and potential customers and also provide information about the products which are not being delivered on time.
 
 ## 5. Stakeholder Requirements
+### 5.1 CEO
+1. The analytics solution must provide the revenue trend over time
+2. The analytics solution must identify majore revenue contributors by, products, categories, regions, sellers and customer segments.
+3. The analytics solution must identify underperforming regions, products, categories, sellers and customer segments.
+4. The analytics solution must identify factors associated with periods of revenue decline.
+5. The analytics solution must identify areas of the business which should be prioritized for growth.
+
+### 5.2 Head of Sales
+1. The analytics solution must identify high-performing products and categories in each region in terms of revenue and sale volume.
+2. The analytics solution must identify the regions with high demand but low sales performance.
+3. The analytics solution must identify which products and categories are consistently high-performing across multiple regions.
+4. The analytics solution must identify which products and categories show opportunities for regional sales growth.
+5. The analytics solution must identify how sales performance varies across sellers, products, categories, and regions.
+
+
+### 5.3 Marketing Manager
+1. The analytics solution must provide information about customer segments which generate highest revenue.
+2. The analytics solution must provide information about the customer segments with highest repeat purchase.
+3. The analytics solution must provide information about the products and categories which are most frequently purchased by different customer segments.
+4. The analytics solution must provide information about the regions with high customer base but low purchasing activity.
+5. The analytics solution must provide insights into customer behavior patterns to guide future marketing strategies.
+
+
+### 5.4 Operations Manager
+1. The analytics solution must provide information about the regions which experience the highest delivery delays.
+2. The analytics solution must provide information about the factors associated with delivery delays.
+3. The analytics solution must provide information about the sellers with highest rate of late deliveries.
+4. The analytics solution must provide information about the regions and sellers who consistently deliver orders ahead of or within the expected delivery time.
+5. The analytics solution must provide insights into where operational improvements should be prioritized to reduce delivery delays.
+
+### 5.5 Seler Management Team
+1. The analytics solution must provide information about the sellers who are performing well and which sellers need improvement.
+2. The analytics solution must provide information about the sellers who has best overall average delivery time.
+3. The analytics solution must provide information about the sellers who are consistently getting low customer ratings.
+4. The analytics solution must provide information about the sellers who are consistently performing low in terms of delivery time, cancellation rate.
+
+### 5.6 Customer Experience Team
+1. The analytics solution must provide information about the customer segments which generate highest revenue.
+2. The analytics solution must provide information about the customer segments with highest repeat purchase.
+3. The analytics solution must provide information about the customer and operational factors which reslult in low customer ratings.
+4. The analytics solution must provide information about the relation between customer satisfaction and delayed deliveries.
+
+
 
 ## 6. Business Questions
 ### 6.1 CEO
@@ -98,6 +141,44 @@ As an analyst, I have to provide him information about the customers who are gen
 4. Which regions have the highest concentration of loyal and high-value customers?
 5. Which customer or operational factors are associated with poor customer experience?
 
-## 7. Key Performance Indicators
 
-## 8. Expected Business Outcomes
+## 7. Data  Requirements
+### 7.1 Revenue & Sales Data
+1. Order transaction information to measure sales and revenue.
+2. Order dates to analyze revenue trends over time.
+3. Product an category information to identify major revenue contributors.
+5. Customer information to analyze revenue contribution by customer segment.
+
+### 7.2 Customer Data
+1. Customer profile and demographics information to identify customer segments.
+2. Customer transaction history to analyze purchase behavior and preferences.
+3. Customer feedback and ratings to measure customer satisfaction.
+4. Customer location information to analyze geographic sales patterns.
+
+### 7.3 Product Data
+1. Product information including product name, category, price, and description.
+2. Product sales data to identify best-selling products.
+3. Product rating and review data to measure customer satisfaction.
+
+### 7.4 Seller Data
+1. Seller profile information including seller name, category, and location.
+2. Seller sales data to evaluate seller-level revenue contribution.
+3. Seller rating and review data to measure customer satisfaction.
+4. Seller delivery performance data to identify best-performing sellers.
+
+### 7.5 Order & Delivery Data
+1. Orders information about its status, delivered, not delivered, delayed.
+2. Orders purchase timestamp, orders approval timestamp, orders delivery timestamp to identify the gaps and most delayed orders.
+3. Orders cancellation information to identify the major causes of cancellations.
+4. Estimated delivery date information to compare with actual delivery date.
+
+
+### 7.6 Customer Experience Data
+1. Customer feedback and ratings to measure customer satisfaction.
+2. Customer transaction history to analyze purchase behavior and preferences.
+3. Customer location information to analyze geographic sales patterns.
+4. Order and delivery information to identify factors associated with delivery delays.
+
+## 8. Key Performance Indicators
+
+## 9. Expected Business Outcomes
