@@ -180,5 +180,9 @@ As an analyst, I have to provide him information about the customers who are gen
 4. Order and delivery information to identify factors associated with delivery delays.
 
 ## 8. Key Performance Indicators
+1. 
+
+
+
 
 ## 9. Expected Business Outcomes
