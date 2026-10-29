@@ -1,0 +1,9 @@
+table_name,key_columns,total_rows,duplicate_key_rows,missing_key_rows,unique_key
+customers,customer_id,99441,0,0,True
+orders,order_id,99441,0,0,True
+order_items,"order_id, order_item_id",112650,0,0,True
+products,product_id,32951,0,0,True
+sellers,seller_id,3095,0,0,True
+payments,"order_id, payment_sequential",103886,0,0,True
+reviews,review_id,99224,814,0,False
+category_translation,product_category_name,71,0,0,True
